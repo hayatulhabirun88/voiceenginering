@@ -3,7 +3,7 @@ const axios = require("axios");
 const sqlstring = require("sqlstring");
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = "6184062347:AAFrSvz-McjAc6yQ7tcDdnjWooJLIYHTGVg";
+const token = "YOUR TOKEN";
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, { polling: true });
